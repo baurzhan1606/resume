@@ -1,0 +1,78 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+
+
+}
+.container{
+    display:flex;
+}
+.header{
+    background-color:rgb(51, 49, 49);
+    width: 400px;
+    border-radius: 20px;
+    color:white;
+    
+}
+
+.header h1,h3{
+    
+
+    display: inline-block;
+    margin-left:10px;
+}
+
+.img-main{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left:100px;
+    
+
+}
+
+.info-about{
+    padding-left:40px;
+    justify-content: space-around;
+}
+
+.education h3, .experience h3{
+    display: inline-block;
+    margin-left:10px;
+}
+ul,li{
+    margin-bottom: 20px;
+    color:white;
+
+}
+h1,h3{
+    color:white;
+}
+
+header h1,h3{
+    color:white;
+}
+.info-about h1,h3{
+    color:black;
+    font-weight: bold;
+}
+.phone,.email,.location{
+    display: inline-block;
+    margin-right:5px;
+}
+
+.about,.contact,.skills,.languages{
+    margin-left:30px;
+    
+}
+.about h3,.contact h3 ,.skills h3 ,.languages h3{
+    color:white;
+}
+.about p{
+    line-height: 30px;
+}
+.education h4,.experience h4{
+    font-weight: bold;
+    font-size: 15px;
+}
